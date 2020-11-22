@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap'); /* подключение и использование шрифта */
+p {
+    font-family: 'Castoro', serif;
+}
+
+body { background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url(../images/TreansLearn.jpg); /* затонировали */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.round {
+    width: 300px; height: 300px;
+    border-radius: 50%; /* скругление */
+    background: url(../images/london.jpg) no-repeat -70px 0;
+    background-size: auto 300px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 1em 0 1em 1em; /* Отступ снизу и слева */
+}
+.style-button {
+    background-color: transparent; /* прозрачность */
+    color: #fff; /* Белый цвет текста */
+}
+.text-block {
+    margin-top:343px;
+}
+.contacts{
+    color: #FFFFFF;
+}
