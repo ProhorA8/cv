@@ -1,30 +1,55 @@
+/* подключение и использование шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap'); /* подключение и использование шрифта */
-p {
-    font-family: 'Castoro', serif;
+.background-text {
+    font-family: 'Castoro', serif; /* шрифт */
+    background-color: rgba(255, 255, 255, 0.3); /* прозрачность */
+    text-indent: 25px; /* красная строка */
 }
 
-body { background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url(../images/TreansLearn.jpg); /* затонировали */
+/* имя и фамилия */
+.shadowtext {
+    text-shadow: 3px 2px 5px white; /* Параметры тени */
+    color: black; /* Белый цвет текста */
+    font-size: 3em; /* Размер надписи */
+}
+
+/* фон */
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url(../images/TreansLearn.jpg); /* затонировали */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
 }
+
+/* аватарка */
 .round {
-    width: 300px; height: 300px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%; /* скругление */
     background: url(../images/london.jpg) no-repeat -70px 0;
     background-size: auto 300px;
     float: left; /* Выравнивание по правому краю */
     margin: 1em 0 1em 1em; /* Отступ снизу и слева */
 }
+
+/* текст прозрачность и белый цвет */
 .style-button {
-    background-color: transparent; /* прозрачность */
-    color: #fff; /* Белый цвет текста */
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
 }
+
+/* отступ сверху */
 .text-block {
-    margin-top:343px;
+    margin-top: 343px;
 }
-.contacts{
-    color: #FFFFFF;
+
+/* цвет ссылок */
+.contacts {
+    color: #144687;
+}
+
+.six.columns {
+    min-width: 200px;
 }
