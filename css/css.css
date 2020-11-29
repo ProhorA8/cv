@@ -1,55 +1,76 @@
 /* подключение и использование шрифта */
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
-.background-text {
-    font-family: 'Castoro', serif; /* шрифт */
-    background-color: rgba(255, 255, 255, 0.3); /* прозрачность */
-    text-indent: 25px; /* красная строка */
-}
-
-/* имя и фамилия */
-.shadowtext {
-    text-shadow: 3px 2px 5px white; /* Параметры тени */
-    color: black; /* Белый цвет текста */
-    font-size: 3em; /* Размер надписи */
+@media screen and (max-width: 700px) {
+  .column-1 {
+    min-width: 300px;
+    width: 100%;
+    top: 0;
+    left: 20px;
+    height: auto; /* что бы влезла колонка в экран iPhone 6/7/8 */
+    position: relative;
+  }
+  .column-2 {
+    min-width: 300px;
+    top: 700px;
+    left: 20px;
+    position: absolute;
+    box-shadow: 0 0 20px; /* тень колонки */
+  }
 }
 
 /* фон */
 body {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url(../images/TreansLearn.jpg); /* затонировали */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url(../images/TreansLearn.jpg); /* затонировали */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 3em;
 }
 
 /* аватарка */
-.round {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; /* скругление */
-    background: url(../images/london.jpg) no-repeat -70px 0;
-    background-size: auto 300px;
-    float: left; /* Выравнивание по правому краю */
-    margin: 1em 0 1em 1em; /* Отступ снизу и слева */
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* скругление */
+  background: url(../images/london.jpg) no-repeat -30px; /* положение окна на фото */
+  background-size: auto 200px;
 }
 
-/* текст прозрачность и белый цвет */
+/* шрифт и отступ текста */
+.background-text {
+  font-family: 'Castoro', serif; /* шрифт */
+  text-indent: 25px; /* красная строка */
+}
+
+.colum {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.6); /* прозрачность */
+  padding: 1em;
+}
+
+.column-1 {
+  position: fixed; /* фиксируем на транице*/
+  top: 1em;
+  bottom: 1em;
+  overflow: auto; /* что бы не резалась колонка при уменьшении */
+}
+
+.column-2 {
+  float: bottom;
+  position: absolute; /* выставляем колонку по правому краю */
+  right: 4em;
+  margin-bottom: 1em;
+  margin-top: -2em;
+}
+
+/* опыт в форме кнопки, прозрачность и белый цвет */
 .style-button {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #fff;
-}
-
-/* отступ сверху */
-.text-block {
-    margin-top: 343px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 
 /* цвет ссылок */
 .contacts {
-    color: #144687;
-}
-
-.six.columns {
-    min-width: 200px;
+  color: #144687;
 }
