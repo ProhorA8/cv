@@ -1,27 +1,28 @@
 /* подключение и использование шрифта */
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
-@media screen and (max-width: 700px) {
-
+@media screen and (max-width: 600px) {
   .column-1 {
     display: flex;
-    min-width: 200px;
+    min-width: 300px;
     top: 0;
+    left: 0;
     flex-direction: column;
+    overflow-x: hidden;
   }
 
   /* Задали стилевое оформление последнего элемента своего родителя – белый фон*/
   .column-2:last-child {
     display: flex;
-    min-width: 200px;
+    min-width: 300px;
     top: 800px;
-    left: 45px;
+    left: 0;
     box-shadow: 0 0 20px;
     flex-direction: column;
     background-color: white;
+    overflow-x: hidden;
   }
 }
-
 
 /* фон */
 body {
