@@ -2,25 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 @media screen and (max-width: 700px) {
+
   .column-1 {
     display: flex;
-    min-width: 300px;
-    width: 100%;
+    min-width: 200px;
     top: 0;
-    left: 20px;
     flex-direction: column;
   }
 
-  .column-2 {
+  /* Задали стилевое оформление последнего элемента своего родителя – белый фон*/
+  .column-2:last-child {
     display: flex;
-    min-width: 300px;
+    min-width: 200px;
     top: 800px;
-    left: 20px;
+    left: 45px;
     box-shadow: 0 0 20px;
     flex-direction: column;
-  }
-  /* при наведении курсора у колонки убираем прозрачность */
-  .colum:hover {
     background-color: white;
   }
 }
