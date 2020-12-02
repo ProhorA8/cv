@@ -1,29 +1,6 @@
 /* подключение и использование шрифта */
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
-@media screen and (max-width: 600px) {
-  .column-1 {
-    display: flex;
-    min-width: 300px;
-    top: 0;
-    left: 0;
-    flex-direction: column;
-    overflow-x: hidden;
-  }
-
-  /* Задали стилевое оформление последнего элемента своего родителя – белый фон*/
-  .column-2:last-child {
-    display: flex;
-    min-width: 300px;
-    top: 800px;
-    left: 0;
-    box-shadow: 0 0 20px;
-    flex-direction: column;
-    background-color: white;
-    overflow-x: hidden;
-  }
-}
-
 /* фон */
 body {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url(../images/TreansLearn.jpg); /* затонировали */
@@ -35,8 +12,8 @@ body {
 
 /* аватарка */
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%; /* скругление */
   background: url(../images/london.jpg) no-repeat -30px; /* положение окна на фото */
   background-size: auto 200px;
@@ -44,29 +21,27 @@ body {
 
 /* шрифт и отступ текста */
 .background-text {
-  font-family: 'Castoro', serif; /* шрифт */
-  text-indent: 25px; /* красная строка */
+  font-family: 'Castoro', serif;
+  text-indent: 25px;
 }
 
-.colum {
-  width: 30%;
-  background-color: rgba(255, 255, 255, 0.6); /* прозрачность */
+.column {
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 1em;
+  max-width: 40%;
 }
 
 .column-1 {
-  position: fixed; /* фиксируем на транице*/
+  position: fixed;
   top: 1em;
   bottom: 1em;
-  overflow: auto; /* что бы не резалась колонка при уменьшении */
 }
 
 .column-2 {
-  float: bottom;
   position: absolute; /* выставляем колонку по правому краю */
   right: 4em;
-  margin-bottom: 1em;
   margin-top: -2em;
+  margin-bottom: 1em;
 }
 
 /* опыт в форме кнопки, прозрачность и белый цвет */
@@ -78,4 +53,25 @@ body {
 /* цвет ссылок */
 .contacts {
   color: #144687;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    left: 0;
+    overflow-x: hidden;
+  }
+
+  .column-1 {
+    top: 0;
+  }
+
+  /* Задали стилевое оформление последнего элемента своего родителя – белый фон*/
+  .column-2:last-child {
+    top: 800px;
+    box-shadow: 0 0 20px;
+    background-color: white;
+  }
 }
