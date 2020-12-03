@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 80%;
-    left: 0;
+    left: 40px;
     overflow-x: hidden;
   }
 
@@ -68,10 +68,11 @@ body {
     top: 0;
   }
 
-  /* Задали стилевое оформление последнего элемента своего родителя – белый фон*/
-  .column-2:last-child {
+  .column-2 {
     top: 800px;
     box-shadow: 0 0 20px;
     background-color: white;
+    margin: 0;
+    margin-bottom: 1em;
   }
 }
