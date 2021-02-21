@@ -25,8 +25,16 @@ body {
   text-indent: 25px;
 }
 
+.buffer {
+  margin-top: -5%;
+}
+
+.buffer_link {
+  margin-bottom: 5%;
+}
+
 .column {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1em;
   max-width: 40%;
 }
