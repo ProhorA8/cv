@@ -10,6 +10,27 @@ body {
   padding: 3em;
 }
 
+/* шрифт и отступ текста */
+.background-text {
+  font-family: 'Castoro', serif;
+  text-indent: 25px;
+}
+
+/* отступ */
+.buffer {
+  margin-top: -5%;
+}
+
+.m_bottom {
+  margin-bottom: 10px;
+}
+
+/* расположение аватарки и выбора языка */
+.top_block {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* аватарка */
 .avatar {
   width: 170px;
@@ -19,16 +40,40 @@ body {
   background-size: auto 200px;
 }
 
-/* шрифт и отступ текста */
-.background-text {
-  font-family: 'Castoro', serif;
-  text-indent: 25px;
+/*расположение контактов */
+.contacts {
+  display: inline-flex;
 }
 
-.buffer {
-  margin-top: -5%;
+/* цвет ссылок */
+.contacts a, a {
+  color: #144687;
 }
 
+/* отступ для контактов */
+.margin_contacts {
+  margin-left: 10px;
+}
+
+/* бэйдж */
+.my_badge {
+  background: #2eaabe;
+  color: white;
+  font-weight: bold;
+  font-size: .75em;
+  padding: 0 .35em 0 .35em;
+  margin-left: .65em;
+  margin-top: .30em;
+  border-radius: .30em;
+}
+
+/* расположение для бэйджев */
+ul li,p.fl {
+  display: inline-flex;
+  margin: 10px 0 0 10px ;
+}
+
+/* отступ для ссылок */
 .buffer_link {
   margin-bottom: 5%;
 }
@@ -52,17 +97,13 @@ body {
   margin-bottom: 1em;
 }
 
-/* опыт в форме кнопки, прозрачность и белый цвет */
-.style-button {
+/* мои навыки в форме кнопок, прозрачность и белый цвет */
+.my-skills-button {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
 
-/* цвет ссылок */
-.contacts {
-  color: #144687;
-}
-
+/* для маленьких экранов */
 @media screen and (max-width: 900px) {
   .column {
     display: flex;

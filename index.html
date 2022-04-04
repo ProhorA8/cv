@@ -1,151 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evgeniy Prohorchuk — Ruby on Rails Developer</title>
-  <link rel="icon" type="image/png" sizes="16x16" href="images/emerald.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/css.css">
-</head>
-<body>
-<div class="column column-1">
-  <div class="avatar"></div>
-  <h2>Evgeniy Prohorchuk</h2>
-  <h4>Ruby on Rails Developer / Software Engineer</h4>
-  <h5>Republic of Belarus, Zhodino</h5>
-  <p>Phone: <a class="contacts" href="tel:+375-44-5888834">+375 (44) 588 88 34</a></p>
-  <p>Email: <a class="contacts" href="mailto:procustom4@gmail.com">procustom4@gmail.com</a></p>
-  <h4>My profile</h4>
-  <a title="GitHub" href="https://github.com/ProhorA8" method="get" rel="noopener noreferrer" target="_blank">
-    <img src="images/git.png" alt="GitHub" width="50"></a>
-  <a title="Heroku" href="https://dashboard.heroku.com/apps" method="get" rel="noopener noreferrer" target="_blank">
-    <img src="images/heroku.png" alt="Heroku" width="50"></a>
-</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Евгений Прохорчук – Ruby on Rails Разработчик</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/emerald.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/css.css">
+  </head>
 
-<div class="column column-2">
-  <h4>Education</h4>
-  <ul>
-    <li>2020–2020 Ruby and Rails online course.
-      <a class="contacts" href="https://goodprogrammer.ru">GoodProgrammer.ru</a></li>
-    <li>2019–2020 Independent study Ruby</li>
-    <li>2011–2016 Belarusian National Technical University, Minsk. Faculty of Mechanical Engineering, Technological
-      equipment
-    </li>
-    <li>2007–2011 Zhodino State Polytechnic College</li>
-  </ul>
+  <body>
+    <div class="column column-1">
 
-  <h4>Job experience</h4>
-  <p>Since the end of 2019, I have started to study independently, I am constantly developing my developer skills.
-     Commercial experience of 3 months in the company Vizor Games</p>
+      <div class="top_block">
+        <!-- аватарка из css -->
+        <div class="avatar"></div>
 
-  <h4>My skills</h4>
-  <button class="style-button">OOP</button>
-  <button class="style-button">Ruby</button>
-  <button class="style-button">Ruby on Rails</button>
-  <button class="style-button">SQLite/MySQL</button>
-  <button class="style-button">Git</button>
-  <button class="style-button">HTML</button>
-  <button class="style-button">Bootstrap</button>
-  <button class="style-button">CSS</button>
-  <button class="style-button">RSpec</button>
-  <button class="style-button">Heroku</button>
-  <button class="style-button">AWS</button>
-  <button class="style-button">Docker</button>
-  <button class="style-button">CI/CD</button>
-  <button class="style-button">Prometheus</button>
-  <p></p>
+        <!-- выбор языка -->
+        <select class="change-lang">
+          <option value="ru" selected>RU</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
 
-  <h4>My projects</h4>
-  <h5>BBQ</h5>
-  <p>
-    An application with which it is easy to create any event and invite all your friends to it.
-    The user creates an event with a date, description, location on the map, and then on it
-    other users can subscribe.
-    In the created event, you can upload photos and leave comments.<br>
-    The application implements the following functionality:
-  </p>
-  <ul>
-    <li>Authorization, authentication - <span class="badge badge-info">Devise, Pundit</span></li>
-    <li>Uploading files - <span class="badge badge-info">Carrierwave</span></li>
-    <li>Sending mail - <span class="badge badge-info">ActionMailer, SendGrid API</span></li>
-    <li>Background tasks - <span class="badge badge-info">ActiveJob, Resque, Redis</span></li>
-    <li>Page-proofs - <span class="badge badge-info">Bootstrap4</span></li>
-  </ul>
-  <div class="buffer">
-    <span class="badge badge-secondary">rails6</span>
-    <span class="badge badge-secondary">bootstrap4</span>
-    <span class="badge badge-secondary">carrierwave</span>
-    <span class="badge badge-secondary">rspec</span>
-    <span class="badge badge-secondary">aws</span>
-    <span class="badge badge-secondary">devise</span>
-  </div>
-  <div class="buffer_link">
-    <a href="https://events-to-bbq.herokuapp.com" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">events-to-bbq.herokuapp.com</a>
-    <a href="https://github.com/ProhorA8/event-bbq" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">Git Hub</a>
-  </div>
+      <!-- обо мне -->
+      <h2 class="lng-name">Евгений Прохорчук</h2>
+      <h4 class="lng-position">Junior Ruby on Rails Разработчик / Инженер-программист</h4>
+      <h5 class="lng-location">Республика Беларусь, г. Жодино</h5>
+      <p class="lng-phone contacts">Телефон: </p><a class="margin_contacts contacts" href="tel:+375-44-5888834">+375 (44) 588 88 34</a></br>
+      <p class="lng-email contacts">Почта: </p><a class="margin_contacts contacts" href="mailto:procustom4@gmail.com">procustom4@gmail.com</a>
 
-  <h5>Askme</h5>
-  <p>
-    Questions and answers site. After registration, the user fills out his profile and can
-    – both on your own behalf and anonymously – ask your own questions and answer the questions of others
-    users.
-  </p>
-  <div class="buffer">
-    <span class="badge badge-secondary">rails6</span>
-    <span class="badge badge-secondary">recaptchav2</span>
-  </div>
-  <div class="buffer_link">
-    <a href="https://evgen-askme.herokuapp.com" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">evgen-askme.herokuapp.com</a>
-    <a href="https://github.com/ProhorA8/askme" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">Git Hub</a>
-  </div>
+      <!-- иконки профилей -->
+      <h4 class="lng-profile">Мои профили</h4>
+      <a title="GitHub" href="https://github.com/ProhorA8" method="get" rel="noopener noreferrer" target="_blank">
+        <img src="images/git.png" alt="GitHub" width="50"></a>
+      <a title="Heroku" href="https://dashboard.heroku.com/apps" method="get" rel="noopener noreferrer" target="_blank">
+        <img src="images/heroku.png" alt="Heroku" width="50"></a>
+    </div>
+
+    <div class="column column-2">
+      <h4 class="lng-education">Образование</h4>
+      <ul>
+        <li class="lng-ror">2020–2020 Онлайн-курс Ruby and Rails</li><a href="https://goodprogrammer.ru"> GoodProgrammer.ru</a>
+        <li class="lng-ruby">2019–2020 Самостоятельное исследование Ruby</li>
+        <li class="lng-bntu">
+          2011–2016 Белорусский национальный технический университет, г. Минск. Факультет машиностроения, технологическое оборудование
+        </li>
+        <li class="lng-college">2007–2011 Жодинский государственный политехнический колледж</li>
+      </ul>
+
+      <h4 class="lng-experience">Опыт работы</h4>
+      <p class="lng-experience_description">
+        С конца 2019 года я начал учиться самостоятельно, постоянно развиваю свои навыки разработчика.
+        Коммерческий опыт 3-и месяца в компании Vizor Games
+      </p>
+
+      <h4 class="lng-skills">Мои навыки</h4>
+      <button class="my-skills-button">OOP</button>
+      <button class="my-skills-button">Ruby</button>
+      <button class="my-skills-button">Ruby on Rails</button>
+      <button class="my-skills-button">PostgreSQL</button>
+      <button class="my-skills-button">Git</button>
+      <button class="my-skills-button">HTML</button>
+      <button class="my-skills-button">Bootstrap</button>
+      <button class="my-skills-button">CSS</button>
+      <button class="my-skills-button">RSpec</button>
+      <button class="my-skills-button">Heroku</button>
+      <button class="my-skills-button">AWS</button>
+      <button class="my-skills-button">Docker</button>
+      <button class="my-skills-button">CI/CD</button>
+      <button class="my-skills-button">Prometheus</button>
+      <p></p>
+
+      <h4 class="lng-projects">Мои проекты</h4>
+      <h5>BBQ</h5>
+      <p class="lng-bbq m_bottom">
+        Приложение, с помощью которого легко создать любое мероприятие и пригласить на него всех своих друзей.
+        Пользователь создает событие с датой, описанием, местоположением на карте, а затем на нем
+        другие пользователи могут подписаться.
+        В созданное мероприятие можно загружать фотографии и оставлять комментарии.<br>
+        В приложении реализован следующий функционал:
+      </p>
+      <ul>
+          <li class="fl lng-auth">Авторизация, аутентификация - </li><p class="fl my_badge">Devise, Pundit</p></br>
+          <li class="fl lng-upload">Загрузка файлов - </li><p class="fl my_badge">Carrierwave</p></br>
+          <li class="fl lng-mail">Отправка почты - </li><p class="fl my_badge">ActionMailer, SendGrid API</p></br>
+          <li class="fl lng-tasks">Фоновые задачи - </li><p class="fl my_badge">ActiveJob, Resque, Redis</p></br>
+          <li class="fl lng-page">Стили - </li><p class="fl my_badge">Bootstrap4</p>
+      </ul>
+      <div class="buffer">
+        <span class="badge badge-secondary">rails6</span>
+        <span class="badge badge-secondary">bootstrap4</span>
+        <span class="badge badge-secondary">carrierwave</span>
+        <span class="badge badge-secondary">rspec</span>
+        <span class="badge badge-secondary">aws</span>
+        <span class="badge badge-secondary">devise</span>
+      </div>
+      <div class="buffer_link">
+        <a href="https://events-to-bbq.herokuapp.com" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">events-to-bbq.herokuapp.com</a>
+        <a href="https://github.com/ProhorA8/event-bbq" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">Git Hub</a>
+      </div>
+
+      <h5>Askme</h5>
+      <p class="lng-askme">
+        Сайт вопросов и ответов. После регистрации пользователь заполняет свой профиль и может
+        – как от своего имени, так и анонимно — задавайте свои вопросы и отвечайте на вопросы других пользователи.
+      </p>
+      <div class="buffer">
+        <span class="badge badge-secondary">rails6</span>
+        <span class="badge badge-secondary">recaptchav2</span>
+      </div>
+      <div class="buffer_link">
+        <a href="https://evgen-askme.herokuapp.com" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">evgen-askme.herokuapp.com</a>
+        <a href="https://github.com/ProhorA8/askme" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">Git Hub</a>
+      </div>
 
 
-  <h5>Game Hangman</h5>
-  <p>
-    Game console "Hangman" based on the popular game "Hangman". The player guesses out
-    hidden word.
-  </p>
-  <div class="buffer">
-    <span class="badge badge-secondary">ruby</span>
-    <span class="badge badge-secondary">game console</span>
-  </div>
-  <div class="buffer_link">
-    <a href="https://github.com/ProhorA8/hangman" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">Git Hub</a>
-  </div>
+      <h5>Game Hangman</h5>
+      <p class="lng-hangman">
+        Игровая приставка "Виселица" по мотивам популярной игры "Виселица". Игрок угадывает скрытое слово.
+      </p>
+      <div class="buffer">
+        <span class="badge badge-secondary">ruby</span>
+        <span class="badge badge-secondary">game console</span>
+      </div>
+      <div class="buffer_link">
+        <a href="https://github.com/ProhorA8/hangman" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">Git Hub</a>
+      </div>
 
-  <h5>Venus</h5>
-  <p>Responsive layout (example of my landing page)</p>
-  <div class="buffer">
-    <span class="badge badge-secondary">HTML</span>
-    <span class="badge badge-secondary">CSS</span>
-    <span class="badge badge-secondary">Bootstrap4</span>
-  </div>
-  <div class="buffer_link">
-    <a href="https://travel-venus.herokuapp.com" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">travel-venus.herokuapp.com</a>
-    <a href="https://github.com/ProhorA8/venus" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
-       target="_blank">Git Hub</a>
-  </div>
+      <h5>Venus</h5>
+      <p class="lng-venus">Адаптивный макет (пример моей целевой страницы)</p>
+      <div class="buffer">
+        <span class="badge badge-secondary">HTML</span>
+        <span class="badge badge-secondary">CSS</span>
+        <span class="badge badge-secondary">Bootstrap4</span>
+      </div>
+      <div class="buffer_link">
+        <a href="https://travel-venus.herokuapp.com" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">travel-venus.herokuapp.com</a>
+        <a href="https://github.com/ProhorA8/venus" class="btn btn-outline-primary mt-2 btn-lg" rel="noopener noreferrer"
+           target="_blank">Git Hub</a>
+      </div>
 
-  <h4>About me</h4>
-  <p>
-    A motivated Ruby on Rails developer, I strive to develop and learn new technologies.
-    Responsible, I can work in a team, work in stressful situations, understand someone else's code.
-    Patient attitude towards someone else's code and criticism of your own code.
-    In 2019 I got carried away with programming. Since 2020 I have been programming in Ruby and Ruby on Rails.
-  </p>
-  <p>English language – A2</p>
-  <p>Russian language – С2</p>
-</div>
-</body>
+      <h4 class="lng-about_me">Обо мне</h4>
+      <p class="lng-description">
+        Мотивированный разработчик Ruby on Rails, я стремлюсь разрабатывать и изучать новые технологии.
+        Ответственный, умею работать в команде, работать в стрессовых ситуациях, разбираться в чужом коде.
+        Терпеливое отношение к чужому коду и критике собственного кода.
+        В 2019 году увлёкся программированием. С 2020 года программирую на Ruby и Ruby on Rails.
+      </p>
+      <p class="lng-english">Английский язык – А2</p>
+      <p class="lng-russian">Русский язык – С2</p>
+    </div>
+
+    <!-- подключаем переводы и логику -->
+    <script src="lang.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
