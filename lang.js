@@ -67,6 +67,12 @@ const langArr = {
         "ru": "Мои проекты",
         "en": "My projects"
     },
+    "ads": {
+      "ru": "Проект где публикуются объявления пользователей. Пользователи имеют разные права доступа, в зависимости от роли.\n" +
+          "          Отдельная админка.",
+      "en": "The project where user announcements are published. Users have different access rights, depending on the role.\n" +
+          "          Separate admin."
+    },
     "bbq": {
         "ru": "Приложение, с помощью которого легко создать любое мероприятие и пригласить на него всех своих друзей.\n" +
             "        Пользователь создает событие с датой, описанием, местоположением на карте, а затем на нем\n" +
@@ -125,11 +131,13 @@ const langArr = {
         "ru": "Мотивированный разработчик Ruby on Rails, я стремлюсь разрабатывать и изучать новые технологии.\n" +
             "        Ответственный, умею работать в команде, работать в стрессовых ситуациях, разбираться в чужом коде.\n" +
             "        Терпеливое отношение к чужому коду и критике собственного кода.\n" +
-            "        В 2019 году увлёкся программированием. С 2020 года программирую на Ruby и Ruby on Rails.",
+            "        В 2019 году увлёкся программированием. С 2020 года программирую на Ruby и Ruby on Rails. <br \/>" +
+            "        Больше примеров кода в моём репозитории GitHub.",
         "en": "A motivated Ruby on Rails developer, I strive to develop and learn new technologies.\n" +
             "        Responsible, I can work in a team, work in stressful situations, understand someone else's code.\n" +
             "        Patient attitude towards someone else's code and criticism of your own code.\n" +
-            "        In 2019 I got carried away with programming. Since 2020 I have been programming in Ruby and Ruby on Rails."
+            "        In 2019 I got carried away with programming. Since 2020 I have been programming in Ruby and Ruby on Rails. <br \/>" +
+            "        More code examples in my GitHub repository."
     },
     "english": {
         "ru": "Английский язык – А2",
