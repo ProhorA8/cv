@@ -32,22 +32,22 @@ const langArr = {
         "en": "Education"
     },
     "ror": {
-        "ru": "2020–2020 Онлайн-курс Ruby and Rails",
-        "en": "2020–2020 Ruby and Rails online course"
+        "ru": "2020 – 2020 Онлайн-курс Ruby and Rails",
+        "en": "2020 – 2020 Ruby and Rails online course"
     },
     "ruby": {
-        "ru": "2019–2020 Самостоятельное исследование Ruby",
-        "en": "2019–2020 Independent study Ruby"
+        "ru": "2019 – ∞ Самостоятельное изучение Ruby",
+        "en": "2019 – ∞ Independent study Ruby"
     },
     "bntu": {
-        "ru": "2011–2016 Белорусский национальный технический университет, г. Минск. Факультет машиностроения, технологическое\n" +
+        "ru": "2011 – 2016 Белорусский национальный технический университет, г. Минск. Факультет машиностроения, технологическое\n" +
             "        оборудование",
-        "en": "2011–2016 Belarusian National Technical University, Minsk. Faculty of Mechanical Engineering, Technological\n" +
+        "en": "2011 – 2016 Belarusian National Technical University, Minsk. Faculty of Mechanical Engineering, Technological\n" +
             "        equipment"
     },
     "college": {
-        "ru": "2007–2011 Жодинский государственный политехнический колледж",
-        "en": "2007–2011 Zhodino State Polytechnic College"
+        "ru": "2007 – 2011 Жодинский государственный политехнический колледж",
+        "en": "2007 – 2011 Zhodino State Polytechnic College"
     },
     "experience": {
         "ru": "Опыт работы",
