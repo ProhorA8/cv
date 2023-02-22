@@ -8,8 +8,8 @@ const langArr = {
         "en": "Evgeniy Prohorchuk"
     },
     "position": {
-        "ru": "Junior Ruby on Rails Разработчик / Инженер-программист",
-        "en": "Junior Ruby on Rails Developer / Software Engineer"
+        "ru": "Ruby on Rails Разработчик / Инженер-программист",
+        "en": "Ruby on Rails Developer / Software Engineer"
     },
     "location": {
         "ru": "Республика Беларусь, г. Жодино",
