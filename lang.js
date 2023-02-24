@@ -1,7 +1,8 @@
-const langArr = {
+let langArr;
+langArr = {
     "title": {
-      "ru": "Евгений Прохорчук – Ruby on Rails Разработчик",
-      "en": "Evgeniy Prohorchuk — Ruby on Rails Developer"
+        "ru": "Евгений Прохорчук – Ruby on Rails Разработчик",
+        "en": "Evgeniy Prohorchuk — Ruby on Rails Developer"
     },
     "name": {
         "ru": "Евгений Прохорчук",
@@ -53,11 +54,13 @@ const langArr = {
         "ru": "Опыт работы",
         "en": "Job experience"
     },
-    "experience_description": {
-        "ru": "С конца 2019 года я начал учиться самостоятельно, постоянно развиваю свои навыки разработчика.\n" +
-            "        Коммерческий опыт 3-и месяца в компании Vizor Games",
-        "en": "Since the end of 2019, I have started to study independently, I am constantly developing my developer skills.\n" +
-            "        Commercial experience of 3 months in the company Vizor Games"
+    "lng-experience_aterise": {
+        "ru": "Apr. 2022 – Feb. 2023 Aterise",
+        "en": "Apr. 2022 – Feb. 2023 Aterise"
+    },
+    "lng-experience_vizor": {
+        "ru": "Jun. 2021 – Aug. 2021 Vizor Games",
+        "en": "Jun. 2021 – Aug. 2021 Vizor Games"
     },
     "skills": {
         "ru": "Мои навыки",
@@ -68,10 +71,10 @@ const langArr = {
         "en": "My projects"
     },
     "ads": {
-      "ru": "Проект где публикуются объявления пользователей. Пользователи имеют разные права доступа, в зависимости от роли.\n" +
-          "          Отдельная админка.",
-      "en": "The project where user announcements are published. Users have different access rights, depending on the role.\n" +
-          "          Separate admin."
+        "ru": "Проект где публикуются объявления пользователей. Пользователи имеют разные права доступа, в зависимости от роли.\n" +
+            "          Отдельная админка.",
+        "en": "The project where user announcements are published. Users have different access rights, depending on the role.\n" +
+            "          Separate admin."
     },
     "bbq": {
         "ru": "Приложение, с помощью которого легко создать любое мероприятие и пригласить на него всех своих друзей.\n" +
@@ -86,8 +89,8 @@ const langArr = {
             "        The application implements the following functionality:"
     },
     "auth": {
-      "ru": "Авторизация, аутентификация - ",
-      "en": "Authorization, authentication - "
+        "ru": "Авторизация, аутентификация - ",
+        "en": "Authorization, authentication - "
     },
     "upload": {
         "ru": "Загрузка файлов - ",
@@ -147,4 +150,4 @@ const langArr = {
         "ru": "Русский язык – С2",
         "en": "Russian language – С2"
     }
-}
+};
